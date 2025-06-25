@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
@@ -47,7 +46,7 @@ class _ChatScreenState extends State<ChatScreen> {
   final List<ChatMessage> _messages = [];
   bool _isLoading = false;
 
-  final String _apiKey = 'AIzaSyBe1cIZ03SADQq-J2i7I6EM0LOndChXqkc';
+  final String _apiKey = const String.fromEnvironment('GEMINI_API_KEY');
   final String _url =
       'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
 
