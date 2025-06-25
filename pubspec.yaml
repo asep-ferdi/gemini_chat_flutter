@@ -1,4 +1,3 @@
-
 name: gemini_chat_flutter
 description: A Gemini AI chatbot
 
@@ -11,6 +10,10 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^0.13.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
 
 flutter:
   uses-material-design: true
