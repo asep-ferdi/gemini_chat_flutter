@@ -1,0 +1,16 @@
+
+name: gemini_chat_flutter
+description: A Gemini AI chatbot
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+
+flutter:
+  uses-material-design: true
